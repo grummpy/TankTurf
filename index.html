@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tank Turf</title>
+  <link rel="icon" href="assets/icon.jpg">
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #12151a;
+      color: #f4efe2;
+      font-family: ui-monospace, "Cascadia Mono", "Courier New", monospace;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    canvas {
+      width: min(100vw, calc(100vh * 1.5));
+      height: auto;
+      background: #12151a;
+      outline: none;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="game" width="960" height="640" tabindex="0" aria-label="Tank Turf"></canvas>
+  <script type="module" src="src/ui/main.js"></script>
+</body>
+</html>

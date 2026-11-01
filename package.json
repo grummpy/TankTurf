@@ -1,0 +1,12 @@
+{
+  "name": "tankturf",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Tank Turf — 4-player local destructible-maze tank battle",
+  "scripts": {
+    "start": "python3 server.py",
+    "test": "node --test tests/"
+  },
+  "license": "MIT"
+}
